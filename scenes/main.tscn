@@ -5,6 +5,10 @@
 [node name="main" type="Node"]
 
 [node name="lobby" parent="." instance=ExtResource( 1 )]
+margin_left = -523.0
+margin_top = -310.0
+margin_right = -483.0
+margin_bottom = -270.0
 name_field = NodePath("../../main/lobby/Panel/HBoxContainer/VBoxContainer/name")
 address_field = NodePath("../../main/lobby/Panel/HBoxContainer/VBoxContainer/address")
 player_list = NodePath("../../main/lobby/Panel/HBoxContainer/VBoxContainer2/players")
